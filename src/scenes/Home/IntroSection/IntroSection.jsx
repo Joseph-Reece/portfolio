@@ -22,7 +22,7 @@ const IntroSection = () => {
             Computers have always fascinated me since I was a child.
             </p>
             <p>
-            I fell in love with web development and decided to pursue a career in software engineering.
+            I fell in love with web development and decided to pursue <br /> a career in software engineering.
             </p>
             <p>
             </p>
@@ -48,7 +48,8 @@ const IntroSection = () => {
                 <b className={s.purple}>
                 Laravel PHP, JavaScript, Reactjs, Nodejs,  React native
                 </b>
-              </i>{' '}, and a few other cool libraries.
+              </i>,<br />
+              {' '} and a few other cool libraries.
             </p>
             
           </div>

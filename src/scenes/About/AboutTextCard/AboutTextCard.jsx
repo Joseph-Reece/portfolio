@@ -5,17 +5,16 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
+        Hello, everyone! I'm{' '}
         <span className={s.purple}>Joseph Ndirangu </span>
+        a MERN Stack, Mobile and Laravel PHP developer
         from <span className={s.purple}> Nairobi, Kenya</span>
         <br />
-        Skilled MERN Stack and Laravel PHP Developer.
-        <br /> Bachelor in Software Engineering from
         <br />
-        Murang' a University of Technology, Muranga.
+        I graduated from Murang' a University of Technology in Muranga with a bachelor's degree in software engineering.
         <br />
         <br />
-        Apart from coding, some other activities that I enjoy doing!
+        Aside from coding, here are some other things I enjoy doing!
       </p>
 
       <ul>

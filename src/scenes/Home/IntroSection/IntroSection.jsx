@@ -19,10 +19,10 @@ const IntroSection = () => {
 
           <div className={s.description}>
             <p>
-              As a kid I was always facinated by computers.  
+            Computers have always fascinated me since I was a child.
             </p>
             <p>
-              I fell in love with web development and so I chose a path of Software Engineering.
+            I fell in love with web development and decided to pursue a career in software engineering.
             </p>
             <p>
             </p>
@@ -32,30 +32,25 @@ const IntroSection = () => {
             </p> */}
 
             <p>
-              My field of Interest's are building new
-              <i>
+            Building new <i>
                 <b className={s.purple}>
                   {' '}
                   Web Technologies and Products
                 </b>
-              </i>
+              </i> is among my areas of interest.
+              
             </p>
-
-            <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
-              have an experience of building{' '}
-              <i>
+            <p> A passionate Full Stack Software Developer 🚀 <br />
+              I've built{' '} <i>
                 <b className={s.purple}>Web and Mobile</b>
               </i>{' '}
-              applications with
-              <br />
-              <i>
+              applications using <br/> <i>
                 <b className={s.purple}>
                 Laravel PHP, JavaScript, Reactjs, Nodejs,  React native
                 </b>
-              </i>{' '}
-              and some other cool libraries
+              </i>{' '}, and a few other cool libraries.
             </p>
+            
           </div>
         </div>
 

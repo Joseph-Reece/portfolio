@@ -11,6 +11,7 @@ const Home = () => {
       </SectionBG>
 
       <IntroSection />
+
     </HomeLayout>
   );
 };

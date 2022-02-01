@@ -62,6 +62,17 @@ const AboutTextCard = () => {
       >
         {`"${delivery}"`}{' '}
       </p>
+
+      <p
+        style={{
+          color: 'rgb(155 126 172)',
+          textAlign: 'center',
+          marginTop: '1rem',
+          fontSize: '0.8rem',
+        }}
+      >
+         Powered by <a href="https://v2.jokeapi.dev/" target="_blank" rel="noreferrer" >Jokes API </a> 
+      </p>
     </div>
   );
 };

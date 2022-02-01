@@ -1,7 +1,8 @@
 import s from './Footer.module.scss';
-import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import {
   FaLinkedinIn,
+  FaTwitter,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -32,12 +33,12 @@ const Footer = () => {
             </li>
             <li className={s.socialLink}>
             <a
-              href="https://www.instagram.com/ndirangu_jk/"
+              href="https://twitter.com/kariuki_joseph3"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <AiOutlineInstagram />
+              <FaTwitter />
             </a>
           </li>
             <li>

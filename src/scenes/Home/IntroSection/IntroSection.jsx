@@ -1,8 +1,9 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
-import { AiFillGithub, AiOutlineInstagram} from 'react-icons/ai';
+import { AiFillGithub} from 'react-icons/ai';
 import {
   FaLinkedinIn,
+  FaTwitter,
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -79,24 +80,14 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.instagram.com/ndirangu_jk/"
+              href="https://twitter.com/kariuki_joseph3"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <AiOutlineInstagram />
+              <FaTwitter />
             </a>
           </li>
-          {/* <li className={s.socialLink}>
-            <a
-              href="https://www.instagram.com/ndirangu_jk/"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaTelegramPlane />
-            </a>
-          </li> */}
           <li className={s.socialLink}>
             <a
               href="https://www.linkedin.com/in/josephndirangu"

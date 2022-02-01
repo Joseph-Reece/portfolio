@@ -1,7 +1,21 @@
+import {useState, useEffect} from 'react';
 import s from './AboutTextCard.module.scss';
 import { ImPointRight } from 'react-icons/im';
+import { getRandomJoke, getTwoPartJoke } from '../../../apis/JokeAPI';
 
 const AboutTextCard = () => {
+  const [setUp, setSetUp] = useState('');
+  const [delivery, setDelivery] = useState('');
+
+  useEffect(() => {
+    getTwoPartJoke().then(res => {
+      console.log(res)
+      setSetUp(res.data.setup);
+      setDelivery(res.data.delivery);
+    });
+  }, []);
+
+
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
@@ -36,7 +50,17 @@ const AboutTextCard = () => {
           marginTop: '1rem',
         }}
       >
-        "Your website is the center of your digital eco-system, like a brick and mortar location, the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door."{' '}
+        {`"${setUp}"`}{' '}
+      </p>
+
+      <p
+        style={{
+          color: 'rgb(155 126 172)',
+          textAlign: 'center',
+          marginTop: '1rem',
+        }}
+      >
+        {`"${delivery}"`}{' '}
       </p>
     </div>
   );

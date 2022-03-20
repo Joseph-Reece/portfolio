@@ -1,6 +1,29 @@
 export const PROJECTS = [
   {
     id: '1',
+    title: 'Clinic Management System',
+    description:
+      'PevaClinic is a clinic management system built using CodeIgniter PHP framework.',
+    image: {
+      src: 'https://res.cloudinary.com/devreece/image/upload/v1647764066/pevaclinic_mjiiih.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://pevapos.co.ke/clinic/frontend/',
+      repo: 'https://github.com/Joseph-Reece',
+      // site: '#',
+      // repo: '#',
+    },
+    technologies: [
+      '#CodeIgniter',
+      '#PHP',
+      '#MySQL',
+      '#Management System',
+    ],
+  },
+  {
+    id: '2',
     title: 'A blog Template',
     description:
       'A simple blog template made with React and Masonry layout.',
@@ -18,34 +41,6 @@ export const PROJECTS = [
       '#redux',
       '#scss',
       '#MasonryLayout',
-    ],
-  },
-  {
-    id: '2',
-    title: 'Places App',
-    description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
-    image: {
-      src: 'https://res.cloudinary.com/devreece/image/upload/v1620030908/tbfib1nfofzmtm4uobhw.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      // site: 'https://yourplaces-sv.netlify.app/',
-      // repo: 'https://github.com/vsnaichuk/MERN-places',
-      site: '#',
-      repo: '#',
-    },
-    technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
     ],
   },
   {

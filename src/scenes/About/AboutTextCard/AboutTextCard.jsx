@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import s from './AboutTextCard.module.scss';
 import { ImPointRight } from 'react-icons/im';
-import { getRandomJoke, getTwoPartJoke } from '../../../apis/JokeAPI';
+import { getTwoPartJoke } from '../../../apis/JokeAPI';
 
 const AboutTextCard = () => {
   const [setUp, setSetUp] = useState('');
@@ -21,11 +21,11 @@ const AboutTextCard = () => {
       <p style={{ textAlign: 'justify' }}>
         Hello, everyone! I'm{' '}
         <span className={s.purple}>Joseph Ndirangu </span>
-        a MERN Stack, Mobile and Laravel PHP developer
-        from <span className={s.purple}> Nairobi, Kenya</span>
+        a, Laravel PHP , React, CodeIgniter, Node, and GraphQL enthusiast
+        from <span className={s.purple}> Nairobi, Kenya.</span>
         <br />
         <br />
-        I graduated from Murang' a University of Technology in Muranga with a bachelor's degree in software engineering.
+        I graduated from Murang'a University of Technology in Muranga with a bachelor's degree in software engineering.
         <br />
         <br />
         Aside from coding, here are some other things I enjoy doing!
@@ -50,7 +50,7 @@ const AboutTextCard = () => {
           marginTop: '1rem',
         }}
       >
-        {`"${setUp}"`}{' '}
+        {setUp}{' '}
       </p>
 
       <p

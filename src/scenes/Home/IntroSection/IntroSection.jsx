@@ -27,18 +27,14 @@ const IntroSection = () => {
             </p>
             <p>
             </p>
-            {/* <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
-            </p> */}
 
             <p>
             Building new <i>
                 <b className={s.purple}>
                   {' '}
-                  Web Technologies and Products
+                  business solutions and Products
                 </b>
-              </i> is among my areas of interest.
+              </i> are among my areas of interest.
               
             </p>
             <p> A passionate Full Stack Software Developer 🚀 <br />
@@ -47,7 +43,7 @@ const IntroSection = () => {
               </i>{' '}
               applications using <br/> <i>
                 <b className={s.purple}>
-                Laravel PHP, JavaScript, Reactjs, Nodejs,  React native
+                Laravel PHP, JavaScript, Reactjs, Nodejs, GraphQL, MongoDB,
                 </b>
               </i>,<br />
               {' '} and a few other cool libraries.

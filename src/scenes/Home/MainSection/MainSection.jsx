@@ -1,5 +1,7 @@
 import s from './MainSection.module.scss';
-import homeMainIcon from '../../../assets/home-main.svg';
+// import homeMainIcon from '../../../assets/home-main.svg';
+// import codeThinking from '../../../assets/code_thinking.svg';
+import creationProcess from '../../../assets/creation_process.svg';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -33,7 +35,7 @@ const MainSection = () => {
       <LazyLoadImage
         alt="home-img"
         effect="blur"
-        src={homeMainIcon}
+        src={creationProcess}
         wrapperClassName={s.homeMainIcon}
       />
     </section>
